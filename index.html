@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <link rel="icon" href="https://i.imgur.com/5AdlMkp.png" type="image/png">
+
+
+
+    <title>Sijan & Parsha | The Archive</title>
+
+    </head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Sijan & Parsha</h1>
+            <p id="days-counter">Calculating our time...</p>
+            <div class="scroll-indicator">↓</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="timeline" id="timeline">
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sijan & Parsha Archive. <br>Built with Love & Code.</p>
+    </footer>
+
+    <button id="fab" class="fab" aria-label="Add Memory">+</button>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            
+            <div id="security-step">
+                <h2>Protected Memory</h2>
+                <p class="modal-subtitle">Enter our secret code to unlock.</p>
+                
+                <div class="input-wrapper">
+                    <input type="password" id="pass-input" placeholder="PIN" maxlength="4" autocomplete="off">
+                </div>
+                
+                <button id="auth-btn" class="btn-primary">Unlock Access</button>
+                <p id="error-msg" class="error hidden">Access Denied 🔒</p>
+            </div>
+
+            <div id="upload-step" class="hidden">
+                <h2 class="form-title">New Memory</h2>
+                <form id="memory-form">
+                    <div class="form-group">
+                        <label>Image Link (Direct URL)</label>
+                        <input type="url" id="img-url" placeholder="https://..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" id="mem-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" id="mem-title" placeholder="e.g. The Spidey Date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Caption</label>
+                        <textarea id="mem-caption" rows="3" placeholder="Write something from the heart..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Save to Timeline</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
