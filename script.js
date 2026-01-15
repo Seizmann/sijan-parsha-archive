@@ -27,6 +27,14 @@ const defaultMemories = [
         image: "https://i.imgur.com/j2vRbvK.jpeg",
         caption: "Just sitting together, enjoying the evening sun. I love catching you smiling at me like this."
     },
+     {
+        title: "Under the Green Canopy", // Or whichever title you chose
+        // IMPORTANT: Update this to the actual date of the photo
+        date: "2025-07-13", 
+        // PASTE YOUR NEW DIRECT IMAGE URL BETWEEN THE QUOTES BELOW
+        image: "https://i.imgur.com/OJyjlcZ.jpeg", 
+        caption: "Finding our own quiet spot in the shade. A beautiful day surrounded by nature with my favorite person."
+    }
     {
         title: "The Beginning",
         date: "2023-10-10", 
@@ -182,5 +190,6 @@ function setupIntersectionObserver() {
     document.querySelectorAll('.memory-container').forEach(el => observer.observe(el));
 
 }
+
 
 
