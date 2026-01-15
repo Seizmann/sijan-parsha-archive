@@ -19,6 +19,14 @@ const defaultMemories = [
     image: "https://i.imgur.com/UrldJzJ.jpeg", 
     caption: "Surrounded by a million flowers, but you are still the brightest thing here. A perfect winter day."
 },
+     {
+        title: "The Way You Look at Me",
+        // IMPORTANT: Change this to the REAL date of the photo like "2024-03-10"
+        date: "2025-12-05", 
+        // Paste your new image URL between the quotes below
+        image: "https://i.imgur.com/j2vRbvK.jpeg",
+        caption: "Just sitting together, enjoying the evening sun. I love catching you smiling at me like this."
+    },
     {
         title: "The Beginning",
         date: "2023-10-10", 
@@ -174,4 +182,5 @@ function setupIntersectionObserver() {
     document.querySelectorAll('.memory-container').forEach(el => observer.observe(el));
 
 }
+
 
