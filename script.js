@@ -1,7 +1,7 @@
 // --- Configuration ---
 const SECRET_CODE = "3599";
 const STORAGE_KEY = "sijan_parsha_memories";
-const START_DATE = "2023-10-10"; // Set your relationship start date here
+const START_DATE = "2023-11-26"; // Set your relationship start date here
 
 // --- Initial Data (Hardcoded Memories) ---
 const defaultMemories = [
@@ -34,7 +34,7 @@ const defaultMemories = [
         // PASTE YOUR NEW DIRECT IMAGE URL BETWEEN THE QUOTES BELOW
         image: "https://i.imgur.com/OJyjlcZ.jpeg", 
         caption: "Finding our own quiet spot in the shade. A beautiful day surrounded by nature with my favorite person."
-    }
+    },
     {
         title: "The Beginning",
         date: "2023-10-10", 
@@ -190,6 +190,7 @@ function setupIntersectionObserver() {
     document.querySelectorAll('.memory-container').forEach(el => observer.observe(el));
 
 }
+
 
 
 
