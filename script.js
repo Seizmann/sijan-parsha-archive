@@ -12,6 +12,14 @@ const defaultMemories = [
         caption: "Wearing our matching Spidey hoodies. You are my Mary Jane. ❤️"
     },
     {
+    title: "Fields of Gold",
+    // Make sure to set the REAL date of this photo
+    date: "2025-12-26", 
+    // Use the direct link where you uploaded this image
+    image: "https://i.imgur.com/UrldJzJ.jpeg", 
+    caption: "Surrounded by a million flowers, but you are still the brightest thing here. A perfect winter day."
+},
+    {
         title: "The Beginning",
         date: "2023-10-10", 
         image: "https://i.imgur.com/6IfpGqg.jpeg",
@@ -164,4 +172,5 @@ function setupIntersectionObserver() {
     }, { threshold: 0.15 });
 
     document.querySelectorAll('.memory-container').forEach(el => observer.observe(el));
+
 }
