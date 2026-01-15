@@ -16,10 +16,4 @@ A cinematic, interactive timeline website designed to document the journey of Si
 - **CSS3:** Custom variables, flexbox, grid, and backdrop-filters.
 - **JavaScript (ES6+):** DOM manipulation, LocalStorage logic, and event handling.
 
-## 📸 Screenshots
-
-*(You can upload a screenshot of your site here later)*
-
----
-
 *Built with ❤️ by Sijan.*
