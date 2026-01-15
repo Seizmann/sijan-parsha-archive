@@ -11,7 +11,7 @@ const defaultMemories = [
         image: "https://i.imgur.com/BhVBlZR.jpeg", 
         caption: "Wearing our matching Spidey hoodies. You are my Mary Jane. ❤️"
     },
-    {
+     {
     title: "Fields of Gold",
     // Make sure to set the REAL date of this photo
     date: "2025-12-26", 
@@ -174,3 +174,4 @@ function setupIntersectionObserver() {
     document.querySelectorAll('.memory-container').forEach(el => observer.observe(el));
 
 }
+
