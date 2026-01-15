@@ -1,7 +1,7 @@
 // --- Configuration ---
 const SECRET_CODE = "3599";
 const STORAGE_KEY = "sijan_parsha_memories";
-const START_DATE = "2023-10-10"; // Set your relationship start date here
+const START_DATE = "2023-11-26"; // Set your relationship start date here
 
 // --- Initial Data (Hardcoded Memories) ---
 const defaultMemories = [
@@ -190,6 +190,7 @@ function setupIntersectionObserver() {
     document.querySelectorAll('.memory-container').forEach(el => observer.observe(el));
 
 }
+
 
 
 
